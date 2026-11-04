@@ -16,11 +16,11 @@ func Run() {
 		utils.IterateFiles("samples/", ".go", func(name string) {
 			data := utils.GetFileData("samples/" + name)
 			capitalizedName := utils.Capitalize(name)
-			fromGoToMarkdown(data, "algorithms.wiki/"+strings.ReplaceAll(capitalizedName, ".go", ".md"))
+			fromGoToMarkdown(data, "studying-go.wiki/"+strings.ReplaceAll(capitalizedName, ".go", ".md"))
 		})
 	} else {
 		data := utils.GetFileData("samples/" + *fileRun + ".go")
 		capitalizedName := utils.Capitalize(*fileRun)
-		fromGoToMarkdown(data, "algorithms.wiki/"+capitalizedName+".md")
+		fromGoToMarkdown(data, "studying-go.wiki/"+capitalizedName+".md")
 	}
 }
