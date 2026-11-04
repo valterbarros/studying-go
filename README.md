@@ -7,7 +7,7 @@ This repo was moved from another repo to see original history see: https://githu
 Some notes about go and important links
   - [Links](./notes/LINKS.md)
   - [Commands](./notes/COMMANDS.md)
-  - [Samples of go with notes](https://github.com/valterbarros/algorithms/wiki)
+  - [Samples of go with notes](https://github.com/valterbarros/studying-go/wiki)
   - [Go algortihm implementations](https://github.com/valterbarros/algorithms/tree/main/data-structures-galego/algorithms_go)
 
 ## Go Algorithms – Usage Guide
