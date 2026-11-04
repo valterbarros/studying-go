@@ -1,0 +1,31 @@
+Init a type
+```go
+type FuncType func()
+```
+
+Init a function
+```go
+func funcEmptyArray() []int {
+	return []int{}
+}
+```
+
+### Internals
+
+there is some types for int and float   
+basically int: int, int8, int16, int32, int64   
+go get type by inference and set int, that is based on processor architecture   
+go get type by inference and set int, that is based on processor architecture
+
+```go
+num := 1
+// many line inside code
+// many line inside code
+slice3[0], slice3[1] = slice3[1], slice3[0]
+```
+
+get first element
+```go
+slices[1]
+var fnType FuncType
+```
