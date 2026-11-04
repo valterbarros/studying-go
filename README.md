@@ -29,6 +29,12 @@ example:
 go run ./cmd/parser/main.go -file-run variables
 ```
 
+Generate all files:
+
+```shell
+go run ./cmd/parser/main.go -file-run "*"
+```
+
 ### Testes
 generate big file
 
